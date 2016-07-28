@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+body{
+}
+#list{
+    width: 400px;
+    height: 400px;
+    background-image: url("bg.JPG");
+    transform: rotate(-90deg);
+}
+li{
+	background-color: blue;
+	display: block;
+	margin: 20px;
+}
