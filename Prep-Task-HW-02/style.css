@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.new {
+	position: abosulute;
+	height: 100px;
+	left: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: red;
+	text-align: center;
+	line-height: 100px;
+}

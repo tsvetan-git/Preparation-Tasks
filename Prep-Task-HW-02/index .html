@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="ajax.js"></script>
+	</head>
+	<body>
+		<form action="" method="post">
+			<h1 style="color:red"></h1>
+			<input type="text" value=""/>
+			<button id="btn" type="submit">Send</button>
+		</form>
+	</body>
+</html>
+<script>
+	document.addEventListener ('DOMContentLoaded', function () {
+	var button = document.querySelector('#btn');
+	button.addEventListener ('click', function(event) {
+		event.preventDefault();
+		remove();
+					
+		var inp = document.querySelector('input').value;
+		inp = parseInt(inp);
+		if (!(inp <= 10 && inp > 0 && !isNaN(inp))) {
+			document.querySelector('h1').innerHTML = "You must enter a number between 1 and 10";
+			return;
+		}
+		
+	document.querySelector('h1').innerHTML = "";
+		
+	Ajax.request ('POST', 'server.php', true, function (response) {
+		var str = JSON.parse(response);
+		console.log(JSON.parse(response));
+		createDom(str);	
+		}, {input : inp} )}, false);	
+		}, false);
+			
+	function createDom(arr) {				
+		for (var key = 0; key < arr.length; key++) {
+			var div = document.createElement("div");
+			div.innerHTML = arr[key];
+			div.style.width = 100 + ((key * 10) % 100) + "px";
+			div.className = "new";
+			document.body.appendChild(div);
+		}
+	}
+			
+	function remove() {	 
+		var div = document.querySelectorAll("div");	
+		if (div.length != 0) {
+			for (var key = 0; key < div.length; key++) {
+			document.body.removeChild(div[key]);
+			}
+		}
+	} 
+		
+</script>
