@@ -1,0 +1,583 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3103,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"mar",
+						"margin"
+					],
+					[
+						"pa",
+						"padding-top"
+					],
+					[
+						"fo",
+						"font-size"
+					],
+					[
+						"in",
+						"inline-block"
+					],
+					[
+						"fon",
+						"font-weight"
+					],
+					[
+						"pad",
+						"padding-right"
+					],
+					[
+						"margin",
+						"margin-right"
+					],
+					[
+						"blo",
+						"inline-block"
+					],
+					[
+						"ma",
+						"margin-bottom"
+					],
+					[
+						"bac",
+						"background-color"
+					],
+					[
+						"li",
+						"list-style-type"
+					],
+					[
+						"text-de",
+						"text-decoration-style"
+					],
+					[
+						"text-d",
+						"text-decoration"
+					],
+					[
+						"m",
+						"margin-bottom"
+					],
+					[
+						"BA",
+						"background-color"
+					],
+					[
+						"p",
+						"padding-right"
+					],
+					[
+						"h",
+						"height"
+					],
+					[
+						"te",
+						"text-decoration-line"
+					],
+					[
+						"lis",
+						"list-style-position"
+					],
+					[
+						"text-",
+						"text-align"
+					],
+					[
+						"ali",
+						"vertical-align"
+					],
+					[
+						"bor",
+						"border-radius"
+					],
+					[
+						"a",
+						"alt	Attr"
+					],
+					[
+						"b",
+						"block"
+					],
+					[
+						"bo",
+						"box-sizing"
+					],
+					[
+						"colo",
+						"background-color"
+					],
+					[
+						"he",
+						"header	Tag"
+					],
+					[
+						"wi",
+						"width"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"si",
+						"box-sizing"
+					],
+					[
+						"w",
+						"width"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"i",
+						"inline-block"
+					],
+					[
+						"text",
+						"text-align"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/wamp/www/media/index.html",
+					"settings":
+					{
+						"buffer_size": 1476,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/wamp/www/media/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1241,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/wamp/www/media/css/style.css",
+				"/C/wamp/www/media/index.html",
+				"/C/wamp/www/media/style.css",
+				"/C/Users/Borisov/Desktop/Media Player/style.css",
+				"/C/Users/Borisov/Desktop/Media Player/index.html",
+				"/C/Users/Borisov/Desktop/js-homework/task-01/script.js",
+				"/C/Users/Borisov/Desktop/js-homework/task-01/index.html",
+				"/C/Users/Borisov/Desktop/js-homework/task-01/script",
+				"/C/Users/Borisov/Desktop/css-homework/07-Task/task-07.css",
+				"/C/Users/Borisov/Desktop/css-homework/07-Task/task-07.html",
+				"/C/Users/Borisov/Desktop/css-homework/06-Task/index.html",
+				"/C/Users/Borisov/Desktop/css-homework/06-Task/task-06.css",
+				"/C/Users/Borisov/Desktop/css-homework/06-Task/reset.css",
+				"/C/Users/Borisov/Desktop/css-homework/05-Task/task-05.css",
+				"/C/Users/Borisov/Desktop/css-homework/05-Task/task-05.html",
+				"/C/Users/Borisov/Desktop/css-homework/04-Task/task-04.css",
+				"/C/Users/Borisov/Desktop/css-homework/04-Task/task-04.html",
+				"/C/Users/Borisov/Desktop/css-homework/03-Task/task-03.css",
+				"/C/Users/Borisov/Desktop/css-homework/03-Task/task-03.html",
+				"/C/Users/Borisov/Desktop/css-homework/02-Task/task-02.css",
+				"/C/Users/Borisov/Desktop/css-homework/02-Task/task-02.html",
+				"/C/Users/Borisov/Desktop/css-homework/01-Task/task-01.css",
+				"/C/Users/Borisov/Desktop/layouts/style.css",
+				"/C/Users/Borisov/Desktop/layouts/index.html",
+				"/C/Users/Borisov/Desktop/layouts/960_12_col.css",
+				"/C/Users/Borisov/Desktop/sublime/sublime_text.exe",
+				"/C/Users/Borisov/Desktop/homework-html/task-03/style.css",
+				"/C/Users/Borisov/Desktop/homework-html/task-03/skills.html",
+				"/C/Users/Borisov/Desktop/homework-html/task-03/pictures.html",
+				"/C/Users/Borisov/Desktop/homework-html/task-03/aboutme.html",
+				"/C/Users/Borisov/Desktop/homework-html/task-03/index.html",
+				"/C/Users/Borisov/Desktop/homework-html/task-03/task-03.html",
+				"/C/Users/Borisov/Desktop/css/task-01.html",
+				"/C/Users/Borisov/Desktop/css/task-01.css",
+				"/C/Users/Borisov/Desktop/tsvetan.net/style.css",
+				"/C/Users/Borisov/Desktop/tsvetan.net/index.html",
+				"/C/Users/Borisov/Desktop/Task-01/style.css",
+				"/C/Users/Borisov/Desktop/Task-01/index.html"
+			],
+			"find":
+			{
+				"height": 23.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"controls-container",
+					"title-container",
+					"image-container"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"controls",
+					"title",
+					"image"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/wamp/www/media/index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1476,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										428,
+										361
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/C/wamp/www/media/css/style.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1241,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										234,
+										234
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": -0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.729136163983,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,2,-32000,-32000,-1,-1,704,255,165,911",
+			"project": "",
+			"replace":
+			{
+				"height": 42.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
