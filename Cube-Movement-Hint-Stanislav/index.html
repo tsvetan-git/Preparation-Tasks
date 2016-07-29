@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <style type="text/css">
+        #container {
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        #kub {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: red;
+        }
+    </style>
+    <script type="text/javascript">
+
+        document.addEventListener ('DOMContentLoaded', function() {
+            var cube = document.querySelector('#kub');
+          setInterval (function movess() {
+              var top = true;
+              var left = false;
+              var right = false;
+              var bottom = false;
+
+                         setTimeout(function(){
+                          cube.style.left = 400 + 'px';
+						  cube.style.backgroundColor = "blue";
+                         },100);
+                        setTimeout(function(){
+                            cube.style.top = 400 + 'px';
+							cube.style.backgroundColor = "green";
+                        },500);
+                        setTimeout(function(){
+                             cube.style.left = 0 + 'px';
+							 cube.style.backgroundColor = "black";
+                         },900);
+                          setTimeout(function(){
+                              cube.style.top = 0 + 'px';
+							  cube.style.backgroundColor = "red";
+                          },1400);
+
+          }, 2000);
+
+        }, false);
+
+    </script>
+</head>
+<body>
+<div id="container">
+    <div id="kub"></div>
+
+</div>
+</body>
+</html>
