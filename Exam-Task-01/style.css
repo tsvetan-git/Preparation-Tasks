@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+.img {
+	width: 42px;
+	padding: 2px 20px;
+	float: left;
+}
+
+.img:first-child {
+	padding-top: 10px;
+}
+
+header {
+	font-size: 14px;
+	margin: 10px;
+	margin-bortom: 5px;
+	
+}
+#left_top:first-child {
+
+}
+#left_top {
+	float: left;
+}
+
+#front, #back {
+	background-color: #F8F8F8;
+	border-radius: 15px;
+	margin: 20px;
+    width: 600px;
+    height: 320px;
+    box-shadow: 10px 10px 5px #888888;
+	font-size: 15px;   
+}
+
+
+#top {
+	display: inline-block;
+	width: 99%;
+    background-color: green;
+	margin-top: 10px;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+ 
+.line {
+	margin: 0;
+	padding-bottom: 2px;	
+}
+#float {
+	  float: left;
+	  margin-left: 15px;
+}
+#mainPhoto {
+	display: inline-block;
+	width: 180px;
+	top: 0;
+	margin-left: 30px;
+}
+
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#right_top {
+    float: right;
+    text-align: right;
+}
+
+#test {
+	float:left;	
+}
+#podpis{
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+#dnumber {
+	background-color: #fff;
+}
+
+
+.info {
+	font-weight:bold;
+	padding-left: 10px;
+}
+
+
+
+#s {
+	font-weight: normal !important;
+}
+
+#underline {
+	display:block;
+	width: 100%;
+	border: 1px solid pink;
+}
+
+#code {
+	font-weight: bold;
+	margin: 5px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+#back2 {
+	padding: 20px;
+}
