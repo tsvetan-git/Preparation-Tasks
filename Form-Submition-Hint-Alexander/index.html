@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="ajax.js"></script>
+
+	<script>
+	/* To submit the form using ajax we need to do a few things:
+		1. catch the submit event ( ако не уловим event-а когато формата се submit-ва
+									то ще презаредим страницата и то няма смисал от ajax )
+			1.2 preventDefault
+		2. get the data from the form ( ще скипнем валидация, проверки и т.н. . След като user-ът е натиснал submit-а , 
+										то тогава той сигурно вече е готов с вкарването на данните, на тая стъпка,
+										ще взимаме input-а с js , за да си го имаме като трябва да го изпратим с AJAX)
+		3. send data using AJAX
+	 */
+	
+
+
+	document.addEventListener("DOMContentLoaded", function (event){
+
+		//за да може да си закачи on submit event-а
+		var form = document.getElementById('myForm');
+		//.
+		form.addEventListener("submit", function(event){
+			event.preventDefault();
+			
+			console.log(getData());
+			//...
+			Ajax.request('POST', 'user.php', true, function (response){
+				response = JSON.parse(response);
+				document.getElementById('container').innerHTML = '<h1>' + response + '</h1>';
+			} ,getData());
+			
+		});
+
+		//..
+		function getData(){
+			var name = document.getElementById('name');
+			var otherInfo = document.getElementById('info');
+
+			var obj = {};
+			obj[name.name] = name.value;
+			obj[otherInfo.name] = otherInfo.value;
+
+			return obj;
+		}
+
+
+	});
+	</script>
+</head>
+<body>
+<div id="container">
+	<form method="post" id="myForm">
+		<input id="name" type="text" name="name">
+		<input id="info" type="text" name="someOtherInfo">
+		<input type="submit">
+	</form>
+</div>
+</body>
