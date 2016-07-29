@@ -1,0 +1,7 @@
+var p = document.getElementById(‘myParagraph’);
+//using innerHTML
+p.parentNode.innerHTML = ‘<p>I am new pragraph</p>’;
+// using DOM API
+var myP = document.createElement(‘p’);
+myP.innerText = ‘I am new pragraph’;
+p.parentNode.replaceChild(p. myP);
