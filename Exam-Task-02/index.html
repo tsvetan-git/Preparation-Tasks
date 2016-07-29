@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="style.css">
+<title></title>
+<script type="text/javascript" src="ajax.js"></script>
+</head>
+<body>
+
+<div id='test'>
+</div>
+<button id='button'>Change</button>
+</body>
+</html>
+<script>
+var response = [];
+var div;
+var i = 0;
+
+document.addEventListener('DOMContentLoaded', function() {
+	var button = document.getElementById('button');
+	div = document.getElementById('test');
+	
+	setInterval(function() {
+		console.log(response);
+		if (response.length == 0) {
+			return;
+		}
+		console.log(2);
+		if (response[i] != 0) {
+			console.log(1);
+			div.style.backgroundColor = response[i];
+			i++;
+			console.log(response);
+			
+		}		
+		
+		i == 2 ? i = 0 : false;
+		
+	}, 500);
+	
+	button.addEventListener('click', function () {
+		Ajax.request('GET', 'server.php', true, function(data) {
+			response = JSON.parse(data);
+			console.log(response);
+		});
+	}, false);
+
+}, false);
+</script>
