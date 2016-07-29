@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+
+header {
+	font-size: 15px;
+	margin: 10px;
+	margin-bortom: 5px;
+	border-radius: 5px;
+}
+
+.img {
+	width: 42px;
+	padding: 2px 20px;
+	float: left;
+}
+
+.img:first-child {
+	padding-top: 10px;
+}
+
+.id-info {
+	margin: 0;
+	padding-bottom: 2px;	
+}
+
+#left:first-child {
+
+}
+#left {
+	float: left;
+}
+
+#front, #back {
+	background-color: orange;
+	border-radius: 15px;
+	margin: 20px;
+    width: 600px;
+    height: 320px;
+	font-size: 15px;   
+}
+
+
+#top {
+	display: inline-block;
+	width: 99%;
+    background-color: green;
+	margin-top: 10px;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+ 
+
+#float {
+	  float: left;
+	  margin-left: 15px;
+}
+#picture {
+	display: inline-block;
+	width: 180px;
+	top: 0;
+	margin-left: 30px;
+}
+
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#right {
+    float: right;
+    text-align: right;
+}
+
+#box {
+	float:left;	
+}
+
+
+#sign{
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+
+
+.info {
+	font-weight:bold;
+	padding-left: 10px;
+}
+
+#info {
+	padding: 20px;
+}
+
+#code {
+	font-weight: bold;
+	margin: 5px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
